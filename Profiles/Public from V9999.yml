@@ -4,54 +4,12 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: auto
-  name: Canada Toronto 008
-  network: ws
-  port: 80
-  server: 104.17.103.125
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44
-  ws-headers:
-    Host: caa.ziyun.ga
-  ws-path: /wwwnet
 - alterId: 1
-  cipher: auto
-  name: Canada Toronto 009
-  network: ws
-  port: 443
-  server: v2fly.sab.quest
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
-  ws-headers:
-    Host: v2fly.samrt.website
-  ws-path: /chaug
-- alterId: 0
   cipher: auto
   name: China Hong Kong 004
   network: ws
-  port: 443
-  server: aws-hk06.xiaohouzi.club
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  ws-headers:
-    Host: aws-hk06.xiaohouzi.club
-  ws-path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: China Hong Kong 005
-  network: ws
-  port: 10082
-  server: awv094.xiaohouzi.club
+  port: 10081
+  server: aws-hk02.xiaohouzi.club
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -59,6 +17,20 @@ proxies:
   uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   ws-headers:
     Host: www.ibm.com
+  ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: China Hong Kong 005
+  network: ws
+  port: 10050
+  server: aws-hk03.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: aws-hk03.xiaohouzi.club
   ws-path: /v2ray
 - alterId: 0
   cipher: auto
@@ -74,33 +46,135 @@ proxies:
   ws-headers:
     Host: www.ibm.com
   ws-path: /v2ray
-- name: France Paris 015
-  password: a3a854c6-bef1-4257-a525-b259c6bcca39
-  port: 10050
-  server: fr1.qingyun123.xyz
-  skip-cert-verify: true
-  sni: fr1.qingyun123.xyz
-  type: trojan
-  udp: true
-- name: Germany Frankfurt am Main 014
-  password: a3a854c6-bef1-4257-a525-b259c6bcca39
-  port: 10050
-  server: de1.qingyun123.xyz
-  skip-cert-verify: true
-  sni: de1.qingyun123.xyz
-  type: trojan
-  udp: true
-- name: Norway Rasta 011
-  password: a3a854c6-bef1-4257-a525-b259c6bcca39
-  port: 10050
-  server: no1.qingyun123.xyz
-  skip-cert-verify: true
-  sni: no1.qingyun123.xyz
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: Russia Moscow 010
+  name: China Hong Kong 009
+  network: ws
+  port: 10082
+  server: azhk096.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: www.ibm.com
+  ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: China Hong Kong 010
+  network: ws
+  port: 10082
+  server: awv093.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: awv093.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: China Hong Kong 011
+  network: ws
+  port: 10050
+  server: shk01.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: www.ibm.com
+  ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: China Hong Kong 012
+  network: ws
+  port: 10030
+  server: nazhk03.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: nazhk03.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: China Hong Kong 013
+  network: ws
+  port: 443
+  server: azhk097.xiaohouzi.club
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: azhk097.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: China Hong Kong 014
+  network: ws
+  port: 10051
+  server: azhk003.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: www.ibm.com
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: China Hong Kong 015
+  network: ws
+  port: 443
+  server: aws-hk06.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: aws-hk06.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: China Huangpu 007
+  network: ws
+  port: 38106
+  server: ingress-i1.onebox6.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    Host: www.ivpnpro.net
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  name: China Shanghai 008
+  network: ws
+  port: 28323
+  server: mc.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: mc.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: Russia Moscow 021
   network: ws
   port: 10082
   server: v2-r02.xiaohouzi.club
@@ -112,22 +186,34 @@ proxies:
   ws-headers:
     Host: www.ibm.com
   ws-path: /v2ray
-- name: United Kingdom London 016
-  password: 69f6d882-799e-4f08-a47a-2bfcbfb3271a
-  port: 10000
-  server: yin1.qingyun123.xyz
+- alterId: 1
+  cipher: auto
+  name: Russia Zelenograd 019
+  network: ws
+  port: 10083
+  server: v2-r03.xiaohouzi.club
   skip-cert-verify: true
-  sni: yin1.qingyun123.xyz
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: United States Ashburn 013
-  password: a3a854c6-bef1-4257-a525-b259c6bcca39
-  port: 10050
-  server: us1.qingyun123.xyz
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: www.ibm.com
+  ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: Russia Zelenograd 020
+  network: ws
+  port: 10082
+  server: v2-r01.xiaohouzi.club
   skip-cert-verify: true
-  sni: us1.qingyun123.xyz
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: www.ibm.com
+  ws-path: /v2ray
 - cipher: dummy
   name: United States Los Angeles 000
   obfs: tls1.2_ticket_auth
@@ -153,8 +239,8 @@ proxies:
 - cipher: aes-256-gcm
   name: United States Los Angeles 002
   password: dongtaiwang.com
-  port: 32244
-  server: 88.218.92.165
+  port: 38811
+  server: 88.218.92.175
   type: ss
   udp: true
 - alterId: 0
@@ -171,92 +257,127 @@ proxies:
   ws-headers:
     Host: 144.202.116.116
   ws-path: /hgDmY39b/
-- name: United States Reston 012
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  port: 443
-  server: tj-us01.yiyodns.xyz
-  skip-cert-verify: true
-  sni: tj-us01.yiyodns.xyz
-  type: trojan
-  udp: true
-- alterId: 0
+- alterId: 1
   cipher: auto
-  name: United States San Francisco 007
+  name: United States Los Angeles 016
   network: ws
-  port: 443
-  server: cloudflare.xrenblog.com
+  port: 10082
+  server: us06.xiaohouzi.club
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   ws-headers:
-    Host: ipv6.xrenblog.com
-  ws-path: /xrenblog/
+    Host: us06.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: United States Los Angeles 017
+  network: ws
+  port: 10083
+  server: us04.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: us04.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: United States Los Angeles 018
+  network: ws
+  port: 10083
+  server: vv01.xiaohouzi.club
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  ws-headers:
+    Host: www.ibm.com
+  ws-path: /v2ray
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
   proxies:
-  - Canada Toronto 008
-  - Canada Toronto 009
   - China Hong Kong 004
   - China Hong Kong 005
   - China Hong Kong 006
-  - France Paris 015
-  - Germany Frankfurt am Main 014
-  - Norway Rasta 011
-  - Russia Moscow 010
-  - United Kingdom London 016
-  - United States Ashburn 013
+  - China Hong Kong 009
+  - China Hong Kong 010
+  - China Hong Kong 011
+  - China Hong Kong 012
+  - China Hong Kong 013
+  - China Hong Kong 014
+  - China Hong Kong 015
+  - China Huangpu 007
+  - China Shanghai 008
+  - Russia Moscow 021
+  - Russia Zelenograd 019
+  - Russia Zelenograd 020
   - United States Los Angeles 000
   - United States Los Angeles 001
   - United States Los Angeles 002
   - United States Los Angeles 003
-  - United States Reston 012
-  - United States San Francisco 007
+  - United States Los Angeles 016
+  - United States Los Angeles 017
+  - United States Los Angeles 018
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - Canada Toronto 008
-  - Canada Toronto 009
   - China Hong Kong 004
   - China Hong Kong 005
   - China Hong Kong 006
-  - France Paris 015
-  - Germany Frankfurt am Main 014
-  - Norway Rasta 011
-  - Russia Moscow 010
-  - United Kingdom London 016
-  - United States Ashburn 013
+  - China Hong Kong 009
+  - China Hong Kong 010
+  - China Hong Kong 011
+  - China Hong Kong 012
+  - China Hong Kong 013
+  - China Hong Kong 014
+  - China Hong Kong 015
+  - China Huangpu 007
+  - China Shanghai 008
+  - Russia Moscow 021
+  - Russia Zelenograd 019
+  - Russia Zelenograd 020
   - United States Los Angeles 000
   - United States Los Angeles 001
   - United States Los Angeles 002
   - United States Los Angeles 003
-  - United States Reston 012
-  - United States San Francisco 007
+  - United States Los Angeles 016
+  - United States Los Angeles 017
+  - United States Los Angeles 018
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
   proxies:
-  - Canada Toronto 008
-  - Canada Toronto 009
   - China Hong Kong 004
   - China Hong Kong 005
   - China Hong Kong 006
-  - France Paris 015
-  - Germany Frankfurt am Main 014
-  - Norway Rasta 011
-  - Russia Moscow 010
-  - United Kingdom London 016
-  - United States Ashburn 013
+  - China Hong Kong 009
+  - China Hong Kong 010
+  - China Hong Kong 011
+  - China Hong Kong 012
+  - China Hong Kong 013
+  - China Hong Kong 014
+  - China Hong Kong 015
+  - China Huangpu 007
+  - China Shanghai 008
+  - Russia Moscow 021
+  - Russia Zelenograd 019
+  - Russia Zelenograd 020
   - United States Los Angeles 000
   - United States Los Angeles 001
   - United States Los Angeles 002
   - United States Los Angeles 003
-  - United States Reston 012
-  - United States San Francisco 007
+  - United States Los Angeles 016
+  - United States Los Angeles 017
+  - United States Los Angeles 018
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -275,97 +396,120 @@ proxy-groups:
   type: select
 - name: "\U0001F30D \u56FD\u5916\u5A92\u4F53"
   proxies:
-  - Canada Toronto 008
-  - Canada Toronto 009
   - China Hong Kong 004
   - China Hong Kong 005
   - China Hong Kong 006
-  - France Paris 015
-  - Germany Frankfurt am Main 014
-  - Norway Rasta 011
-  - Russia Moscow 010
-  - United Kingdom London 016
-  - United States Ashburn 013
+  - China Hong Kong 009
+  - China Hong Kong 010
+  - China Hong Kong 011
+  - China Hong Kong 012
+  - China Hong Kong 013
+  - China Hong Kong 014
+  - China Hong Kong 015
+  - China Huangpu 007
+  - China Shanghai 008
+  - Russia Moscow 021
+  - Russia Zelenograd 019
+  - Russia Zelenograd 020
   - United States Los Angeles 000
   - United States Los Angeles 001
   - United States Los Angeles 002
   - United States Los Angeles 003
-  - United States Reston 012
-  - United States San Francisco 007
+  - United States Los Angeles 016
+  - United States Los Angeles 017
+  - United States Los Angeles 018
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
-  - China Hong Kong 004
-  - China Hong Kong 005
+  - China Hong Kong 011
+  - China Hong Kong 012
+  - China Hong Kong 013
+  - China Hong Kong 014
+  - China Hong Kong 015
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
 - name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
   proxies:
-  - Canada Toronto 008
-  - Canada Toronto 009
   - China Hong Kong 004
   - China Hong Kong 005
   - China Hong Kong 006
-  - France Paris 015
-  - Germany Frankfurt am Main 014
-  - Norway Rasta 011
-  - Russia Moscow 010
-  - United Kingdom London 016
-  - United States Ashburn 013
+  - China Hong Kong 009
+  - China Hong Kong 010
+  - China Hong Kong 011
+  - China Hong Kong 012
+  - China Hong Kong 013
+  - China Hong Kong 014
+  - China Hong Kong 015
+  - China Huangpu 007
+  - China Shanghai 008
+  - Russia Moscow 021
+  - Russia Zelenograd 019
+  - Russia Zelenograd 020
   - United States Los Angeles 000
   - United States Los Angeles 001
   - United States Los Angeles 002
   - United States Los Angeles 003
-  - United States Reston 012
-  - United States San Francisco 007
+  - United States Los Angeles 016
+  - United States Los Angeles 017
+  - United States Los Angeles 018
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
-  - Canada Toronto 008
-  - Canada Toronto 009
   - China Hong Kong 004
   - China Hong Kong 005
   - China Hong Kong 006
-  - France Paris 015
-  - Germany Frankfurt am Main 014
-  - Norway Rasta 011
-  - Russia Moscow 010
-  - United Kingdom London 016
-  - United States Ashburn 013
+  - China Hong Kong 009
+  - China Hong Kong 010
+  - China Hong Kong 011
+  - China Hong Kong 012
+  - China Hong Kong 013
+  - China Hong Kong 014
+  - China Hong Kong 015
+  - China Huangpu 007
+  - China Shanghai 008
+  - Russia Moscow 021
+  - Russia Zelenograd 019
+  - Russia Zelenograd 020
   - United States Los Angeles 000
   - United States Los Angeles 001
   - United States Los Angeles 002
   - United States Los Angeles 003
-  - United States Reston 012
-  - United States San Francisco 007
+  - United States Los Angeles 016
+  - United States Los Angeles 017
+  - United States Los Angeles 018
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
-  - Canada Toronto 008
-  - Canada Toronto 009
   - China Hong Kong 004
   - China Hong Kong 005
   - China Hong Kong 006
-  - France Paris 015
-  - Germany Frankfurt am Main 014
-  - Norway Rasta 011
-  - Russia Moscow 010
-  - United Kingdom London 016
-  - United States Ashburn 013
+  - China Hong Kong 009
+  - China Hong Kong 010
+  - China Hong Kong 011
+  - China Hong Kong 012
+  - China Hong Kong 013
+  - China Hong Kong 014
+  - China Hong Kong 015
+  - China Huangpu 007
+  - China Shanghai 008
+  - Russia Moscow 021
+  - Russia Zelenograd 019
+  - Russia Zelenograd 020
   - United States Los Angeles 000
   - United States Los Angeles 001
   - United States Los Angeles 002
   - United States Los Angeles 003
-  - United States Reston 012
-  - United States San Francisco 007
+  - United States Los Angeles 016
+  - United States Los Angeles 017
+  - United States Los Angeles 018
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -381,23 +525,28 @@ proxy-groups:
   type: select
 - name: "\U0001F41F \u6F0F\u7F51\u4E4B\u9C7C"
   proxies:
-  - Canada Toronto 008
-  - Canada Toronto 009
   - China Hong Kong 004
   - China Hong Kong 005
   - China Hong Kong 006
-  - France Paris 015
-  - Germany Frankfurt am Main 014
-  - Norway Rasta 011
-  - Russia Moscow 010
-  - United Kingdom London 016
-  - United States Ashburn 013
+  - China Hong Kong 009
+  - China Hong Kong 010
+  - China Hong Kong 011
+  - China Hong Kong 012
+  - China Hong Kong 013
+  - China Hong Kong 014
+  - China Hong Kong 015
+  - China Huangpu 007
+  - China Shanghai 008
+  - Russia Moscow 021
+  - Russia Zelenograd 019
+  - Russia Zelenograd 020
   - United States Los Angeles 000
   - United States Los Angeles 001
   - United States Los Angeles 002
   - United States Los Angeles 003
-  - United States Reston 012
-  - United States San Francisco 007
+  - United States Los Angeles 016
+  - United States Los Angeles 017
+  - United States Los Angeles 018
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
